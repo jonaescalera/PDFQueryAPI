@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Modelos de IA/ML
+*.bin
+*.pt
+*.pth
+*.onnx
+*.mlmodel
+*.tflite
+*.pb
+models/
+checkpoints/
+weights/
+*.gguf
+*.ggml
+
+# FastAPI
+.env
+venv/
+.venv/
+.fastapi_server/
+
+# Llama específico
+**/llama-2**/
+**/*.gguf
+**/*.ggml-model*
+**/*.vocabpe
+
+# NodeJS
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+package-lock.json
+.pnpm-lock.yaml
+
+# IDEs y editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Directorios de datos y archivos temporales
+data/
+logs/
+tmp/
+temp/
+.tmp/
+db.sqlite3
+
+# Archivos grandes
+*.csv
+*.json
+*.sqlite
+*.db
+*.hdf5
+*.h5
+*.parquet
+
+# Otros archivos y directorios
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
